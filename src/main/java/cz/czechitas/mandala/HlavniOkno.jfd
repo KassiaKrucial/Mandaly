@@ -1,0 +1,254 @@
+JFDML JFormDesigner: "6.0.2.0.116" Java: "1.8.0_202" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+			"$layoutConstraints": "insets rel,hidemode 3"
+			"$columnConstraints": "[fill][fill][fill][fill][fill][fill][fill][fill]"
+			"$rowConstraints": "[][][fill][]"
+		} ) {
+			name: "this"
+			"defaultCloseOperation": 2
+			"title": "Mandala"
+			"$locationPolicy": 1
+			"minimumSize": sfield com.jformdesigner.model.FormObject NULL_VALUE
+			"$sizePolicy": 1
+			auxiliary() {
+				"JavaCodeGenerator.postInitCode": "this.contentPane = (JPanel) this.getContentPane();\nthis.contentPane.setBackground(this.getBackground());\nLayoutManager layout = this.contentPane.getLayout();\nif (layout instanceof MigLayout) {\n    this.migLayoutManager = (MigLayout) layout;\n}\n"
+			}
+			add( new FormContainer( "javax.swing.JMenuBar", new FormLayoutManager( class javax.swing.JMenuBar ) ) {
+				name: "menuBar2"
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labShadesOfBlack"
+					"text": "Shades of Black"
+					"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 1, false )
+					"horizontalAlignment": 2
+					"border": new com.jformdesigner.model.SwingBorder( "Button.border" )
+					"minimumSize": new java.awt.Dimension( 101, 20 )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "priStisknutiLabShadesOfBlack", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labShadesOfYellow"
+					"text": "Shades of Yellow"
+					"font": &SwingDerivedFont0 new com.jformdesigner.model.SwingDerivedFont( null, 0, 1, false )
+					"horizontalAlignment": 2
+					"border": &SwingBorder0 new com.jformdesigner.model.SwingBorder( "Button.border" )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "priStisknutiLabShadesOfYellow", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labShadesOfGold"
+					"text": "Shades of Gold"
+					"border": &SwingBorder1 new com.jformdesigner.model.SwingBorder( "Button.border" )
+					"font": #SwingDerivedFont0
+					"horizontalAlignment": 2
+					"minimumSize": new java.awt.Dimension( 101, 20 )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "priStisknutiLabShadesOfGold", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labShadesOfOrange"
+					"text": "Shades of Orange"
+					"font": #SwingDerivedFont0
+					"horizontalAlignment": 2
+					"border": #SwingBorder0
+					"minimumSize": new java.awt.Dimension( 101, 20 )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "priStisknutiLabShadesOfOrange", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labShadesOfRed"
+					"text": "Shades of Red"
+					"font": #SwingDerivedFont0
+					"horizontalAlignment": 2
+					"border": #SwingBorder0
+					"minimumSize": new java.awt.Dimension( 101, 20 )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "priStisknutoLabShadesOfRed", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labShadesOfCrimson"
+					"text": "Shades of Crimson"
+					"border": #SwingBorder1
+					"font": #SwingDerivedFont0
+					"horizontalAlignment": 2
+					"minimumSize": new java.awt.Dimension( 101, 20 )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "priStisknutiLabShadesOfCrimson", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labShadesOfDeepPink"
+					"text": "Shades Of Deep Pink"
+					"font": #SwingDerivedFont0
+					"horizontalAlignment": 2
+					"border": #SwingBorder0
+					"minimumSize": new java.awt.Dimension( 101, 20 )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "priStisknutiLabShadesOfDeepPink", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labShadesOfPurple"
+					"text": "Shades of Purple"
+					"font": #SwingDerivedFont0
+					"horizontalAlignment": 2
+					"border": #SwingBorder0
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "priStisknutiLabShadesOfPurple", true ) )
+				} )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "pad 0,cell 0 0 8 1,gapy 0 0"
+			} )
+			add( new FormContainer( "javax.swing.JMenuBar", new FormLayoutManager( class javax.swing.JMenuBar ) ) {
+				name: "menuBar3"
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labShadesOfDarkOrchid"
+					"text": "Shades of Dark Orchid"
+					"font": #SwingDerivedFont0
+					"horizontalAlignment": 2
+					"border": #SwingBorder0
+					"minimumSize": new java.awt.Dimension( 101, 20 )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "priStisknutiLabShadesOfDarkOrchid", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labShadesOfBlue"
+					"text": "Shades of Blue"
+					"font": #SwingDerivedFont0
+					"horizontalAlignment": 2
+					"border": #SwingBorder0
+					"minimumSize": new java.awt.Dimension( 101, 20 )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "priStisknutiLabShadesOfBlue", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labShadesOfDeepSkyBlue"
+					"text": "Shades of Deep Sky Blue"
+					"font": #SwingDerivedFont0
+					"horizontalAlignment": 2
+					"border": #SwingBorder0
+					"minimumSize": new java.awt.Dimension( 101, 20 )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "priStisknutiLabShadesOfDeepSkyBlue", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labShadesOfAqua"
+					"text": "Shades of Aqua"
+					"font": #SwingDerivedFont0
+					"horizontalAlignment": 2
+					"border": #SwingBorder0
+					"minimumSize": new java.awt.Dimension( 101, 20 )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "priStisknutiLabShadesOfAqua", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labShadesOfSpringGreen"
+					"text": "Shades of Spring Green"
+					"font": #SwingDerivedFont0
+					"horizontalAlignment": 2
+					"border": #SwingBorder0
+					"minimumSize": new java.awt.Dimension( 101, 20 )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "priStisknutiLabShadesOfSpringGreen", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labShadesOfForestGreen"
+					"text": "Shades of Forest Green"
+					"font": #SwingDerivedFont0
+					"horizontalAlignment": 2
+					"border": #SwingBorder0
+					"minimumSize": new java.awt.Dimension( 101, 20 )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "priStisknutiLabShadesOfForestGreen", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labShadesOfLime"
+					"text": "Shades of Lime"
+					"font": #SwingDerivedFont0
+					"horizontalAlignment": 2
+					"border": #SwingBorder0
+					"minimumSize": new java.awt.Dimension( 101, 20 )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "priStisknutiLabShadesOfLime", true ) )
+				} )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "pad 0,cell 0 1 8 1,gapy 0 0"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labAktualniBarva"
+				"text": "Shades:"
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 1 2"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labBarva1"
+				"minimumSize": new java.awt.Dimension( 32, 32 )
+				"opaque": true
+				"background": &Color0 new java.awt.Color( 204, 204, 204, 255 )
+				"border": &SwingBorder2 new com.jformdesigner.model.SwingBorder( "CheckBox.border" )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "priStisknutiLabBarva", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 2 2"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labBarva2"
+				"minimumSize": new java.awt.Dimension( 32, 32 )
+				"opaque": true
+				"background": #Color0
+				"border": #SwingBorder2
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "priStisknutiLabBarva", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 3 2"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labBarva3"
+				"minimumSize": new java.awt.Dimension( 32, 32 )
+				"opaque": true
+				"background": #Color0
+				"border": #SwingBorder2
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "priStisknutiLabBarva", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 4 2"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labBarva4"
+				"minimumSize": new java.awt.Dimension( 32, 32 )
+				"opaque": true
+				"background": #Color0
+				"border": #SwingBorder2
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "priStisknutiLabBarva", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 5 2"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labBarva5"
+				"minimumSize": new java.awt.Dimension( 32, 32 )
+				"opaque": true
+				"background": #Color0
+				"border": #SwingBorder2
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "priStisknutiLabBarva", true ) )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 6 2"
+			} )
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPaneObrazku"
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labObrazek"
+					"horizontalAlignment": 2
+					"verticalAlignment": 1
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "priStisknutiMysiNadLabObrazek", true ) )
+				} )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 0 3 8 1,alignx left,growx 0"
+			} )
+			menuBar: new FormContainer( "javax.swing.JMenuBar", new FormLayoutManager( class javax.swing.JMenuBar ) ) {
+				name: "menuBar1"
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labOpen"
+					"text": "Open"
+					"horizontalAlignment": 2
+					"font": &SwingDerivedFont1 new com.jformdesigner.model.SwingDerivedFont( null, 0, 2, false )
+					"border": &SwingBorder3 new com.jformdesigner.model.SwingBorder( "Button.border" )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "priStisknutiLabOpen", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "labSaveAs"
+					"text": "Save as"
+					"horizontalAlignment": 2
+					"font": #SwingDerivedFont1
+					"border": #SwingBorder3
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "priStisknutiLabSaveAs", true ) )
+				} )
+			}
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 20 )
+			"size": new java.awt.Dimension( 875, 370 )
+		} )
+	}
+}
